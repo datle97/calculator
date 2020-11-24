@@ -1,0 +1,14 @@
+.button {
+  font-family: "San Francisco";
+  background-color: #383838;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  border: none;
+  &:hover {
+    filter: brightness(1.2);
+  }
+  &:focus {
+    outline: 0;
+  }
+}
